@@ -11,11 +11,10 @@
 /* this is only telst file */
 /* test 2 for commit */
 /* test commit for anothreTesting */
-<<<<<<< HEAD
 /* some comment for testing branch */
-=======
+
 /* test commit for anothreTesting */
 /* test commit for anothreTesting */
->>>>>>> anothreTesting
+
 
 #endif /* TEST_FILE_H_ */
