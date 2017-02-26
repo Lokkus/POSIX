@@ -16,6 +16,14 @@ int main(int argc, char* argv[]){
     //main_przerywanie(argc, argv);
     //main_pthread_atfork(argc, argv);
     //main_odczyt_czasu_CPU(argc, argv);
-    main_brudno();
+    //main_brudno();
+    //main_mutexy();
+    //if(mutexy_rozne(argc, argv) == EXIT_SUCCESS)
+    //    return EXIT_SUCCESS;
+    //else
+    //    EXIT_FAILURE;
+    //main_zmienne();
+    //main_blokady_zapis_odczyt();
+    main_bariery();
     return EXIT_SUCCESS;
 }

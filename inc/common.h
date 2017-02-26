@@ -29,6 +29,11 @@
 #include "kurs_07_przerywanie_watkow.h"
 #include "kurs_08_pthread_atfork.h"
 #include "kurs_09_odczyt_czasu_CPU.h"
+#include "kurs_10_mutexy.h"
+#include "kurs_11_mutexy_rozne_zachowania.h"
+#include "kurs_12_zmienne_warunkowe.h"
+#include "kurs_13_blokady_zapis_odczyt.h"
+#include "kurs_14_bariery.h"
 
 #define test_errno(msg) \
     do{ \
@@ -39,5 +44,6 @@
     }while(0)
 
 
+void ms_sleep(const unsigned int ms);
 
 #endif /* COMMON_H_ */
