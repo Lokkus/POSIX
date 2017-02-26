@@ -11,5 +11,6 @@
 /* this is only telst file */
 /* test 2 for commit */
 /* test commit for anothreTesting */
+/* some comment for testing branch */
 
 #endif /* TEST_FILE_H_ */
