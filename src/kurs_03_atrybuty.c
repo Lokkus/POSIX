@@ -53,7 +53,7 @@ static void wyswietl_atrybuty(const pthread_attr_t * attr){
     errno = pthread_attr_getstacksize(attr, &rozmiar);
     test_errno("pthread_attr_getstacksize");
 
-    printf("Rozmiar stosu: %lu (minimalny %lu)\n", rozmiar, PTHREAD_STACK_MIN);
+    printf("Rozmiar stosu: %lu (minimalny %d)\n", rozmiar, PTHREAD_STACK_MIN);
 
     /* rozmiar obszaru zabezpieczajacego stos */
     errno = pthread_attr_getguardsize(attr, &rozmiar);

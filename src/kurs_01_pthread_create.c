@@ -16,7 +16,6 @@ static void* watek (void* _arg){
 
 void main_pthread_create(int argc, char* argv[]){
     pthread_t id, id2;
-    int i;
     pthread_t iden1, iden2;
 
     errno = pthread_create(&id, NULL, watek, NULL);

@@ -19,21 +19,10 @@
 #include <sched.h>
 #include <unistd.h>
 #include <time.h>
-#include "na_brudno.h"
-#include "kurs_01_pthread_create.h"
 #include "kurs_02_przekazywanie_argumentow.h"
-#include "kurs_03_atrybuty.h"
 #include "kurs_04_priorytety_watkow.h"
-#include "kurs_05_funkcje_finalizyjace.h"
 #include "kurs_06_prywatne_dane.h"
-#include "kurs_07_przerywanie_watkow.h"
-#include "kurs_08_pthread_atfork.h"
 #include "kurs_09_odczyt_czasu_CPU.h"
-#include "kurs_10_mutexy.h"
-#include "kurs_11_mutexy_rozne_zachowania.h"
-#include "kurs_12_zmienne_warunkowe.h"
-#include "kurs_13_blokady_zapis_odczyt.h"
-#include "kurs_14_bariery.h"
 
 #define test_errno(msg) \
     do{ \
@@ -45,5 +34,21 @@
 
 
 void ms_sleep(const unsigned int ms);
+void main_pthread_create(int argc, char* argv[]);
+void main_atrybuty(int argc, char* argv[]);
+int main_f_finalizujace(int argc, char* argv[]);
+int main_przerywanie(int argc, char* argv[]);
+int main_pthread_atfork(int argc, char* argv[]);
+void main_mutexy();
+int mutexy_rozne(int argc, char* argv[]);
+void main_zmienne();
+void main_blokady_zapis_odczyt();
+void main_bariery();
+int main_pliki(int argc, char* argv[]);
+
+
+
+int main_wazniak_watki(int argc, char* argv[]);
+
 
 #endif /* COMMON_H_ */

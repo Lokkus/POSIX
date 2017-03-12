@@ -24,6 +24,8 @@ int main(int argc, char* argv[]){
     //    EXIT_FAILURE;
     //main_zmienne();
     //main_blokady_zapis_odczyt();
-    main_bariery();
+    //main_bariery();
+    //main_pliki(argc, argv);
+    main_wazniak_watki(argc, argv);
     return EXIT_SUCCESS;
 }
